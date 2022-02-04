@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
+    "started": "node index",
     "type": "git",
     "url": "git+https://github.com/Divyesh07-cyber/Api.git"
   },
