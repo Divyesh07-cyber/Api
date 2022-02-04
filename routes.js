@@ -14,7 +14,7 @@ router.get('/movies',async(req,res)=>{
 
 //api to add data
 router.post("/movies",async(req,res)=>{
-    const mi = new mi({
+    const mi = new movie({
         name:req.body.name,
         rating:req.body.rating,
         language:req.body.language
